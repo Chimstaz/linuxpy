@@ -31,7 +31,7 @@ TEMPLATE = """\
 import enum
 
 from linuxpy.ioctl import IO as _IO, IOR as _IOR, IOW as _IOW, IOWR as _IOWR
-from linuxpy.ctypes import u8, u16, i16, i64, cuint, cint, cchar, ccharp
+from linuxpy.ctypes import u8, u16, i16, i64, cuint, cint, cchar, ccharp, culonglong
 from linuxpy.ctypes import Struct, Union, POINTER, timeval
 
 
